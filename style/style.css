@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwNjcyMjc0MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 600px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgb(0, 0, 0, .5 );
+}
+
+.relogio div{
+    height: 175px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgb(5,5,5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo{
+    font-size: 10px;
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.caixa_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+    height:25px;
+    background: rgb(5,5,5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.link {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}

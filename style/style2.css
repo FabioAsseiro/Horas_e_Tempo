@@ -1,0 +1,119 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+    body{
+        background-image: url("https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwNjcyMjc0MA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    }
+
+main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.caixa-maior{
+    background-color: #000000;
+    opacity: 0.8;
+    border-radius: 35px;
+    padding: 45px;
+    width: 95%;
+    max-width: 500px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #d6d6d62b;
+    color: #ffffff;
+    width: calc(100% - 60px);
+}
+
+.botao-busca{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #d6d6d62b;
+    cursor: pointer;
+    float: right;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.busca{
+    width: 20px;
+    
+}
+
+.cidade{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.previsao{
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.caixa_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    text-align: center;
+    width: 180px;
+    height:25px;
+    background: rgb(5,5,5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.link {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
